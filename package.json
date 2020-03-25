@@ -12,7 +12,8 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "start": "nodemon index.ts"
+    "start": "nodemon index.ts",
+    "startAuth": "nodemon authServer.ts"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
