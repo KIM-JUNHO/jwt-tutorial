@@ -21,3 +21,12 @@ Content-Type: application/json
 POST http://localhost:4000/protected
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjAsImlhdCI6MTU4NTE0ODg3MCwiZXhwIjoxNTg1MTQ5NzcwfQ.4uYqoxJeoZE7jpy9X713MaUdRLdENfjvE__wVydmWc4
+
+###
+
+POST http://localhost:4000/logout
+
+###
+
+POST http://localhost:4000/refresh_token
+Content-Type: application/json
